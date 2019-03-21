@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test_Suite 1,IE 11,,2019-03-21 10:01:47,2019-03-21 10:03:07,1m - 20.595s,FAILED
+,,,,,,
+Test Cases/Test 1 by Wesam,IE 11,,2019-03-21 10:01:47,2019-03-21 10:01:57,9.900s,PASSED
+"openBrowser("""")",IE 11,,2019-03-21 10:01:48,2019-03-21 10:01:52,4.894s,PASSED
+"navigateToUrl(""https://edlservices.moi.gov.kw/_forms/default.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"")",IE 11,,2019-03-21 10:01:52,2019-03-21 10:01:56,3.688s,PASSED
+closeBrowser(),IE 11,,2019-03-21 10:01:56,2019-03-21 10:01:57,0.794s,PASSED
+,,,,,,
+Test Cases/Test 2 by Wesam,IE 11,,2019-03-21 10:01:57,2019-03-21 10:03:07,1m - 9.622s,FAILED
+"openBrowser("""")",IE 11,,2019-03-21 10:01:57,2019-03-21 10:02:01,3.145s,PASSED
+"navigateToUrl(""https://edlservices.moi.gov.kw/_forms/default.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"")",IE 11,,2019-03-21 10:02:01,2019-03-21 10:02:04,3.335s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign In/input_Civil ID_ctl00PlaceHolderMainsignInControlUserName""), ""292072802528"")",IE 11,,2019-03-21 10:02:04,2019-03-21 10:02:05,0.953s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign In/input_Password_ctl00PlaceHolderMainsignInControlpassword""), ""iFGeFYmXIrUhQZHvW7P22w=="")",IE 11,,2019-03-21 10:02:05,2019-03-21 10:02:05,0.602s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign In/input__ctl00PlaceHolderMainsignInControllogin""))",IE 11,,2019-03-21 10:02:05,2019-03-21 10:02:07,1.035s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl General Department of Traffic eServices/span_""))",IE 11,,2019-03-21 10:02:07,2019-03-21 10:02:13,6.323s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl General Department of Traffic eServices/a_""))",IE 11,,2019-03-21 10:02:13,2019-03-21 10:02:16,2.860s,PASSED
+"setText(findTestObject(""Object Repository/Page_MOIEdl My Profile/input__ctl00ctl43g_4471d6d0_506f_4905_8d6c_1470d82fe96fctl00txtEmail""), ""wesam.ahmed2016@outlook.sa"")",IE 11,,2019-03-21 10:02:16,2019-03-21 10:02:16,0.673s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl My Profile/input_ _ctl00ctl43g_4471d6d0_506f_4905_8d6c_1470d82fe96fctl00LANG""))",IE 11,,2019-03-21 10:02:16,2019-03-21 10:02:17,1.029s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl My Profile/a_""))",IE 11,,2019-03-21 10:02:17,2019-03-21 10:02:18,1.043s,PASSED
+"click(findTestObject(""Object Repository/Page_/span_""))",IE 11,,2019-03-21 10:02:18,2019-03-21 10:03:07,48.185s,FAILED
