@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test_Suite 1,Chrome 72.0.3626.121,,2019-03-25 13:19:18,2019-03-25 13:20:21,1m - 2.986s,FAILED
+,,,,,,
+Test Cases/Test 1 by Wesam,Chrome 72.0.3626.121,,2019-03-25 13:19:18,2019-03-25 13:19:31,12.754s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-25 13:19:19,2019-03-25 13:19:26,6.648s,PASSED
+"navigateToUrl(""https://edlservices.moi.gov.kw/_forms/default.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"")",Chrome 72.0.3626.121,,2019-03-25 13:19:26,2019-03-25 13:19:30,4.503s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-25 13:19:30,2019-03-25 13:19:31,0.921s,PASSED
+,,,,,,
+Test Cases/Test 2 by Wesam,Chrome 72.0.3626.121,,2019-03-25 13:19:31,2019-03-25 13:20:20,48.425s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-25 13:19:31,2019-03-25 13:19:34,2.732s,PASSED
+"navigateToUrl(""https://edlservices.moi.gov.kw/_forms/default.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=%2F"")",Chrome 72.0.3626.121,,2019-03-25 13:19:34,2019-03-25 13:19:38,3.657s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign In/input_Civil ID_ctl00PlaceHolderMainsignInControlUserName""), ""292072802528"")",Chrome 72.0.3626.121,,2019-03-25 13:19:38,2019-03-25 13:19:38,0.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign In/input_Password_ctl00PlaceHolderMainsignInControlpassword""), ""iFGeFYmXIrUhQZHvW7P22w=="")",Chrome 72.0.3626.121,,2019-03-25 13:19:38,2019-03-25 13:19:38,0.240s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign In/input__ctl00PlaceHolderMainsignInControllogin""))",Chrome 72.0.3626.121,,2019-03-25 13:19:38,2019-03-25 13:19:46,7.496s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl General Department of Traffic eServices/span_""))",Chrome 72.0.3626.121,,2019-03-25 13:19:46,2019-03-25 13:19:46,0.096s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl General Department of Traffic eServices/a_""))",Chrome 72.0.3626.121,,2019-03-25 13:19:46,2019-03-25 13:19:47,1.550s,PASSED
+"setText(findTestObject(""Object Repository/Page_MOIEdl My Profile/input__ctl00ctl43g_4471d6d0_506f_4905_8d6c_1470d82fe96fctl00txtEmail""), ""wesam.ahmed2016@outlook.sa"")",Chrome 72.0.3626.121,,2019-03-25 13:19:48,2019-03-25 13:19:48,0.415s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl My Profile/input_ _ctl00ctl43g_4471d6d0_506f_4905_8d6c_1470d82fe96fctl00LANG""))",Chrome 72.0.3626.121,,2019-03-25 13:19:48,2019-03-25 13:19:48,0.120s,PASSED
+"click(findTestObject(""Object Repository/Page_MOIEdl My Profile/a_""))",Chrome 72.0.3626.121,,2019-03-25 13:19:48,2019-03-25 13:19:48,0.146s,PASSED
+"click(findTestObject(""Object Repository/Page_/span_""))",Chrome 72.0.3626.121,,2019-03-25 13:19:48,2019-03-25 13:20:20,31.441s,FAILED
